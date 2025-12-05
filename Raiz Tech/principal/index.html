@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Raiz Tech</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class="topbar">
+            <div class="brand"><img src="../imagens/raiztech.png" id="logo"></div>
+            <nav class="nav">
+                <a href="#explore">Explorar</a>
+                <a href="#mapa">Mapa</a>
+                <a href="#sobre">Sobre</a>
+                <a class="cta" href="#cadastro">Cadastro</a>
+            </nav>
+            <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
+        </header>
+
+        <main>
+            <!-- HERO -->
+            <section class="hero">
+                <div class="hero-panorama" style="background-image: url('https://santarem.pa.gov.br/storage/posts/May2021/YnsSnMKhsDrQ97O1KJTczK0ImHT3j1ewK30SbVSZ.jpg');">
+                    <div class="hero-overlay">
+                        <h1 id="Descubra">Descubra as histórias do Norte</h1>
+                        <p>Plataforma de preservação cultural, roteiros e turismo sustentável.</p>
+                        <div class="hero-actions">
+                            <a class="btn" href="#explore">Explorar</a>
+                            <a class="btn ghost" href="#mapa">Ver Mapa</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 🔥 CARROSSEL EM TELA INTEIRA -->
+            <section class="carousel-wrapper">
+                <h2 class="carousel-title">Locais em destaque</h2>
+
+                <div class="carousel" id="carousel">
+                    <ul class="place-list">
+                        <li>
+                            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/73/9d/94/church-and-little-pier.jpg?w=300&h=300&s=1">
+                            <strong>Lago do Maica</strong>
+                            <small>Santarém — História ribeirinha</small>
+                        </li>
+
+                        <li>
+                            <img src="https://correiodoribatejo.pt/wp-content/uploads/2019/08/mercado-santarem-antes-das-obras-1024x683.jpg">
+                            <strong>Mercado Municipal</strong>
+                            <small>Culinária e especiarias</small>
+                        </li>
+
+                        <li>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSw6RluGpFfSPuldT3gZ47O6u2xP6V4XIDba7eML-vXvLEkK6kjilsIyXmJbgwrIlsFbNOP9vWtg2N5PNfF8AlEhRP5oTCBHaU07AARYMNm2GiYks5ofWYv5GUCK9p9S2VNOlXw=s294-w294-h220-n-k-no">
+                            <strong>Centro Cultural João Fona</strong>
+                            <small>Centro Cultural</small>
+                        </li>
+
+                        <li>
+                            <img src="https://lh3.googleusercontent.com/gpms-cs-s/APRy3c_hMWEwM5mgmVcVulWnb4BpmBEF3qFasuWF_eKEvE1RF4NP2gayqrScYZ3DpjIFxKfBK5dByaXlJxZ8CGKpwG55Bpo4TrcjSTf2w1DEo6UAPSz9uMeimGG8wZP52fGDoQQXjfPhJg=s294-w294-h220-n-k-no">
+                            <strong>Orla de Santarém</strong>
+                            <small>Lazer e história</small>
+                        </li>
+
+                        <li>
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx3s_0kqiG2a1rZ6HvL6dAqPX1QUCaph4tUNvfWDCGlRfRqx5l9BM19fHFZWS_M6tjvaMBLKSIwsF-QxR0QRWu2tyXC1JqXlN4dF3WttFB7TWUsiZpVmx4RUs4pPuEAqXR6CJ_rwQ=s294-w294-h220-n-k-no">
+                            <strong>Ponta do Cururu</strong>
+                            <small>História cultural</small>
+                        </li>
+
+                         <li>
+                            <img src="https://ogimg.infoglobo.com.br/in/3340098-b04-d76/FT1086A/760/alter-do-chao.jpg">
+                            <strong><a href="ilhaamor.html">Ilha do amor</a></strong>
+                            <small>História cultural</small>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- MAPA INTERATIVO GOOGLE MAPS -->
+            <section class="map-section" id="mapa">
+                <h2>Mapa Interativo</h2>
+                <iframe
+                    class="map-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.6929764045593!2d-54.6995!3d-2.4385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9297a71ea36df5%3A0xde5a0cd5380e4161!2sSantar%C3%A9m%20-%20PA!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </section>
+
+            <!-- ROTEIROS SUGERIDOS -->
+            <div class="gallery">
+                <h3>Roteiros sugeridos</h3>
+                <div class="cards">
+                    <article class="card">
+                        <img src="https://c.files.bbci.co.uk/B8BE/production/_122749274_e119e5a1-3b11-456f-9765-04545298a766.jpg">
+                        <div class="card-body">
+                            <h4>Roteiro Cultural: Tapajós</h4>
+                            <p>Dia inteiro com visita a comunidades.</p>
+                            <a class="btn small" href="#">Ver</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://s2-g1.glbimg.com/-4hw3cp_YWNVXxmgUeHu_vhUnaE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/f/R/dDMzq5Q0yqXYsulBm7LA/whatsapp-image-2018-12-31-at-18.31.25.jpeg">
+                        <div class="card-body">
+                            <h4>Rota Histórica: Centro</h4>
+                            <p>Passeio guiado pelos pontos de memória.</p>
+                            <a class="btn small" href="#">Ver</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://santarem.pa.gov.br/storage/posts/June2024/ad-pautas-1-4qCagf.jpg">
+                        <div class="card-body">
+                            <h4>Rota do Mirantes</h4>
+                            <p>Caminhada pelo principail mirante, com vistas únicas do Tapajós.</p>
+                            <a class="btn small" href="rotacultural.html">Ver</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://s2-g1.glbimg.com/tXkRLEphZktTw_huizEcrsEJFAk=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Y/K/4F7u32SM6tskNFn1kwJQ/jt1-2715.00-24-00-17.quadro006.jpg">
+                        <div class="card-body">
+                            <h4>Rota das Ilhas</h4>
+                            <p>Um passeio que mistura natureza, cultura e tradições ribeirinhas.</p>
+                            <a class="btn small" href="">Ver</a>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwoni1-drqCHXM_ulr1TYzw2kaydCn6HSGtQ&s">
+                        <div class="card-body">
+                            <h4>Rota de comunidades tradicionais</h4>
+                            <p>Vivência imersiva em comunidades ribeirinhas e indígenas, com artesanato, culinária local e histórias preservadas pelas famílias da região.</p>
+                            <a class="btn small" href="">Ver</a>
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+
+         <div id="nos">
+            <!-- SOBRE (AGORA FUNDO PRETO) -->
+            <section id="sobre" class="about black">
+                <h2 class="letras_sobre">Sobre o projeto</h2>
+                <p class="letras_sobre">Placeholder criado para projeto acadêmico.</p>
+                <div class="values">
+                    <div>
+                        <h4 class="letras_sobre">Preservação</h4>
+                        <p class="letras_sobre">Registro de memórias e tradições locais.</p>
+                    </div>
+                    <div>
+                        <h4 class="letras_sobre">Conexão</h4>
+                        <p class="letras_sobre">Conectar turistas a experiências autênticas.</p>
+                    </div>
+                    <div>
+                        <h4 class="letras_sobre">Sustentabilidade</h4>
+                        <p class="letras_sobre">Turismo responsável e economia local.</p>
+                    </div>
+                </div>
+            </section>
+
+          </main>
+            </div>
+
+           <script>
+            const carousel = document.getElementById("carousel");
+
+            setInterval(() => {
+                carousel.scrollBy({
+                    left: 250,
+                    behavior: "smooth"
+                });
+
+                if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 10) {
+                    carousel.scrollTo({ left: 0, behavior: "smooth" });
+                }
+            }, 7000);
+
+            const btn = document.getElementById('menuBtn');
+            const nav = document.querySelector('.nav');
+            btn.addEventListener('click', () => nav.classList.toggle('open'));
+        </script>
+    </body>
+</html>
